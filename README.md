@@ -73,7 +73,7 @@ POST http://localhost:5000/predict
 **Response**:
 ```json
 {
-    "prediction": "normal" | "cataract",
+    "prediction": "normal", #(or "cataract")
     "confidence": 0.95
 }
 ```
