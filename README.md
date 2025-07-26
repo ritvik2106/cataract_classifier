@@ -73,7 +73,7 @@ POST http://localhost:5000/predict
 **Response**:
 ```json
 {
-    "prediction": "normal", #(or "cataract")
+    "prediction": "cataract"
     "confidence": 0.95
 }
 ```
@@ -118,7 +118,7 @@ print(response.json())
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ritvik2106/cataract_classifier.git
 cd cataract_classifier
 ```
 
